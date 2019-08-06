@@ -15,4 +15,12 @@ Dark theme, density normal or compact
 - Duckduckgo privacy essentials
 - Grammarly
 
+## Wallpaper
 
+```
+mkdir ~/Pictures/wallpapers
+cd ~/Pictures/wallpapers
+wget http://hdqwalls.com/wallpapers/small-memory-lp.jpg
+```
+
+With i3, add at the end of the `~/.config/i3/config` file the `feh` wallpaper line
