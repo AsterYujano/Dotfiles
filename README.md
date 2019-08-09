@@ -68,3 +68,10 @@ Thunar is pretty simple and handle mount/unmount of USB sticks & SD card
 ```
 sudo dnf install thunar
 ```
+
+## Font
+
+```
+sudo dnf install lxappearance
+```
+launch it, then change font with smth like Sans
