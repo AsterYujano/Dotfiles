@@ -52,5 +52,19 @@ try `xbacklight -inc 20`
 ## Syncthing & KeepassXC
 
 Install [Syncthing](https://syncthing.net/)
+```
+sudo dnf install syncthing-gtk
+```
 
 Install [KeepassXC](https://keepassxc.org/)
+```
+sudo dnf install keepassxc
+```
+
+## File Manager
+
+Thunar is pretty simple and handle mount/unmount of USB sticks & SD card
+
+```
+sudo dnf install thunar
+```
