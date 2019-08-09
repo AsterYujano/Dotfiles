@@ -48,3 +48,9 @@ sudo nano /etc/X11/xorg.conf
 ```
 
 try `xbacklight -inc 20`
+
+## Syncthing & KeepassXC
+
+Install [Syncthing](https://syncthing.net/)
+
+Install [KeepassXC](https://keepassxc.org/)
