@@ -15,6 +15,33 @@ Dark theme, density normal or compact
 - Duckduckgo privacy essentials
 - Grammarly
 
+### Install
+
+[Download](https://www.mozilla.org/en-US/firefox/developer/) then extract the file in Downloads. Move the firefox folder to /opt thanks to te following:
+
+```
+mkdir -p /opt/firefox-developer
+mv firefox /opt/firefox-developer
+```
+
+```
+echo "[Desktop Entry]
+Name=Firefox Developer
+GenericName=Firefox Developer Edition
+Exec=/opt/firefox-developer/firefox/firefox
+Terminal=false
+Icon=/opt/firefox-developer/firefox/browser/icons/mozicon128.png
+Type=Application
+Categories=Application;Network;X-Developer;
+Comment=Firefox Developer Edition Web Browser." > firefox-developer.desktop
+```
+```
+sudo mv firefox-developer.desktop /usr/share/applications
+```
+```
+sudo chmod +x firefox-developer.desktop
+```
+
 ## Wallpaper
 
 ```
