@@ -17,7 +17,7 @@ Dark theme, density normal or compact
 
 ### Install
 
-[Download](https://www.mozilla.org/en-US/firefox/developer/) then extract the file in Downloads. Move the firefox folder to /opt thanks to te following:
+[Download](https://www.mozilla.org/en-US/firefox/developer/) then extract the file in Downloads. Move the firefox folder to /opt thanks to the following:
 
 ```
 mkdir -p /opt/firefox-developer
