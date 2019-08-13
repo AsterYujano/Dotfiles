@@ -119,3 +119,10 @@ sudo vi /etc/hostname
 # or, the dirtyway (careful, replace everything in the file)
 sudo echo "MY_NEW_HOSTNAME" > /etc/hostname
 ```
+
+## Must-have
+
+```
+sudo dnf install docker \
+docker-compose
+```
