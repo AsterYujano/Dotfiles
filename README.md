@@ -51,7 +51,7 @@ sudo nano /etc/X11/xorg.conf
 
 ```
 
-try `xbacklight -inc 20`
+try `xbacklight -inc 20` (so install xbacklight)
 
 ## Syncthing & KeepassXC
 
@@ -79,3 +79,15 @@ sudo dnf install thunar
 sudo dnf install lxappearance
 ```
 launch it, then change font with smth like Sans
+
+## SSH keys
+
+install xclip (pretty useful)
+
+```
+# generate keys (if needed), check for it before : ~/.ssh/HERE
+ssh-keygen -t rsa -b 4096 -C "EMAIL_ADRESS"
+
+# copy the key
+xclip -sel clip < ~/.ssh/id_rsa.pub
+```
