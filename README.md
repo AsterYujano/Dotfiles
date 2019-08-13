@@ -19,6 +19,21 @@ Dark theme, density normal or compact
 
 https://zillowtech.com/install-firefox-developer-edition-linux.html
 
+## Alias
+
+`echo "ALIASES" >> ~/.zshrc `
+
+```
+alias zshconfig="vi ~/.zshrc"
+alias ohmyzsh="vi ~/.oh-my-zsh"
+alias termiteconfig="vi ~/.config/termite/config"
+alias i3config="vi ~/.config/i3/config"
+
+alias c="clear"
+
+alias togglemute="pactl set-sink-mute alsa_output.pci-0000_00_1f.3.analog-stereo toggle"
+```
+
 ## Wallpaper
 
 ```
@@ -88,6 +103,19 @@ install xclip (pretty useful)
 # generate keys (if needed), check for it before : ~/.ssh/HERE
 ssh-keygen -t rsa -b 4096 -C "EMAIL_ADRESS"
 
+# add to the agent
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+
 # copy the key
 xclip -sel clip < ~/.ssh/id_rsa.pub
+```
+
+## Change hostname
+
+```
+sudo vi /etc/hostname
+
+# or, the dirtyway (careful, replace everything in the file)
+sudo echo "MY_NEW_HOSTNAME" > /etc/hostname
 ```
