@@ -122,7 +122,5 @@ sudo echo "MY_NEW_HOSTNAME" > /etc/hostname
 
 ## Must-have
 
-```
-sudo dnf install docker \
-docker-compose
-```
+https://docs.docker.com/install/linux/docker-ce/fedora/
+
