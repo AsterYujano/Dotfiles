@@ -19,6 +19,12 @@ Dark theme, density normal or compact
 
 https://zillowtech.com/install-firefox-developer-edition-linux.html
 
+### Bugs
+
+Experiencing freezes: https://wiki.archlinux.org/index.php/Firefox/Tweaks#Enable_OpenGL_Off-Main-Thread_Compositing_(OMTC)
+
+Smooth scrolling disabled, with default parameters (8 -> 2).
+
 ## Alias
 
 `echo "ALIASES" >> ~/.zshrc `
